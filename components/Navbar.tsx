@@ -11,7 +11,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   return (
-    <nav className="bg-white shadow-sm py-3 px-4 mb-6">
+    <nav className="bg-white py-3 px-4 mb-6">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
@@ -33,31 +33,31 @@ export default function Navbar() {
             <div className="flex space-x-1">
               <Link 
                 href="/" 
-                className={`px-4 py-2 rounded-full text-sm ${pathname === '/' ? 'bg-blue-500 text-white' : 'text-gray-600 hover:bg-gray-100'}`}
+                className={`px-4 py-2 rounded-full text-sm ${pathname === '/' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}
               >
                 Home
               </Link>
               <Link 
                 href="/pekerjaan" 
-                className={`px-4 py-2 rounded-full text-sm ${pathname === '/pekerjaan' ? 'bg-blue-500 text-white' : 'text-gray-600 hover:bg-gray-100'}`}
+                className={`px-4 py-2 rounded-full text-sm ${pathname === '/pekerjaan' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}
               >
                 Pekerjaan
               </Link>
               <Link 
                 href="/ai-helper" 
-                className={`px-4 py-2 rounded-full text-sm ${pathname === '/ai-helper' ? 'bg-blue-500 text-white' : 'text-gray-600 hover:bg-gray-100'}`}
+                className={`px-4 py-2 rounded-full text-sm ${pathname === '/ai-helper' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}
               >
                 AI Helper
               </Link>
               <Link 
                 href="/komunitas" 
-                className={`px-4 py-2 rounded-full text-sm ${pathname === '/komunitas' ? 'bg-blue-500 text-white' : 'text-gray-600 hover:bg-gray-100'}`}
+                className={`px-4 py-2 rounded-full text-sm ${pathname === '/komunitas' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}
               >
                 Komunitas
               </Link>
               <Link 
                 href="/pelatihan" 
-                className={`px-4 py-2 rounded-full text-sm ${pathname === '/pelatihan' ? 'bg-blue-500 text-white' : 'text-gray-600 hover:bg-gray-100'}`}
+                className={`px-4 py-2 rounded-full text-sm ${pathname === '/pelatihan' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}
               >
                 Pelatihan
               </Link>

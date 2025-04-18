@@ -1,8 +1,8 @@
 "use client";
 
 import React from 'react';
-import PostCard from '../../components/PostCard';
-import PostInput from '../../components/PostInput';
+import PostCard from '@/components/community/PostCard';
+import PostInput from '@/components/community/PostInput';
 
 export default function Komunitas() {
   const posts = [
