@@ -1,8 +1,11 @@
 import { Footer } from "@/components/common";
 import { BeritaSection, HeroSection, LayananSection, TestimoniSection } from "@/components/home";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
+    <>
+    <Navbar/>
     <main className="">
       <HeroSection/>
       <LayananSection/>
@@ -18,5 +21,6 @@ export default function Home() {
       </div>
       <Footer/>
     </main>
+    </>
   );
 }
