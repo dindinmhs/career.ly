@@ -34,7 +34,7 @@ const JobCard = ({ job }: JobProps) => {
         </span>
       </div>
       
-      <div className="flex flex-wrap gap-2 my-3">
+      <div className="flex flex-wrap gap-2 mb-1">
         {job.tags.map((tag, index) => (
           <span key={index} className="bg-gray-200 text-gray-700 text-xs font-bold px-3 py-1 rounded">
             {tag}
@@ -47,7 +47,7 @@ const JobCard = ({ job }: JobProps) => {
         )}
       </div>
       
-      <div className="mt-4 pt-4">
+      <div>
         <div className="flex justify-between items-center w-full">
           <div className="flex items-center">
             <div className="w-30 h-30 relative mr-2">
@@ -62,7 +62,7 @@ const JobCard = ({ job }: JobProps) => {
           </div>
           
           <div className="flex flex-col text-[#456F92] text-sm">
-            <div className="font-medium text-[#456F92] mb-1">{job.provider}</div>
+            <div className="font-medium text-[#456F92] mb-0">{job.provider}</div>
             <div className="flex items-center">
               <FaMapMarkerAlt className="mr-1" size={12} />
               <span>{job.address}</span>
@@ -70,7 +70,7 @@ const JobCard = ({ job }: JobProps) => {
           </div>
         </div>
         
-        <div className="flex justify-between items-center mt-3 pt-3 border-t border-[#456F92]">
+        <div className="flex justify-between items-center mt-1 pt-1 border-t border-[#456F92]">
           <div className="text-[#456F92] text-sm">{job.postedDate}</div>
           <button className="text-gray-400 hover:text-[#456F92] p-1 rounded">
             <FaBookmark size={18} />

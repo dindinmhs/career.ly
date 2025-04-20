@@ -11,7 +11,7 @@ const JobList = () => {
       providerType : 'Perusahaan Mitra',
       level: 'Paruh Waktu',
       price: 'Rp2-8jt',
-      image: '/pln-large.png',
+      image: '/pln.svg',
       tags: ['Python', 'Minimal Sarjana S1'],
       address: 'Jalan Trunojoyo Blok M ...',
       postedDate: '7 hari yang lalu'
@@ -23,7 +23,7 @@ const JobList = () => {
       providerType : 'Perusahaan Mitra',
       level: 'Paruh Waktu',
       price: 'Rp2-8jt',
-      image: '/pln-large.png',
+      image: '/pln.svg',
       tags: ['Python', 'Minimal Sarjana S1'],
       address: 'Jalan Trunojoyo Blok M ...',
       postedDate: '7 hari yang lalu'
@@ -35,7 +35,7 @@ const JobList = () => {
       providerType : 'Perusahaan Mitra',
       level: 'Paruh Waktu',
       price: 'Rp2-8jt',
-      image: '/pln-large.png',
+      image: '/pln.svg',
       tags: ['Python', 'Minimal Sarjana S1'],
       address: 'Jalan Trunojoyo Blok M ...',
       postedDate: '7 hari yang lalu'
@@ -47,7 +47,7 @@ const JobList = () => {
       providerType : 'Perusahaan Mitra',
       level: 'Paruh Waktu',
       price: 'Rp2-8jt',
-      image: '/pln-large.png',
+      image: '/pln.svg',
       tags: ['Python', 'Minimal Sarjana S1'],
       address: 'Jalan Trunojoyo Blok M ...',
       postedDate: '7 hari yang lalu'
