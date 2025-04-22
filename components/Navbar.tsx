@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { DropDown } from './common';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -43,12 +44,14 @@ export default function Navbar() {
               >
                 Pekerjaan
               </Link>
-              <Link 
-                href="/ai-helper" 
-                className={`px-4 py-2 rounded-full text-sm ${pathname === '/ai-helper' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}
-              >
-                AI Helper
-              </Link>
+              <DropDown trigger={<div className='px-4 py-2 rounded-full text-sm text-gray-600 hover:bg-gray-100'>AI Helper</div>}>
+                  <Link href={'/cvmaker'} className="flex gap-2 hover:bg-gray-200 px-3 py-2 items-center">
+                      <p>CV Maker</p>
+                  </Link>
+                  <Link href={'jobmatching'} className="flex gap-2 hover:bg-gray-200 px-3 py-2 items-center">
+                      <p>AI Job Matching</p>
+                  </Link>
+              </DropDown>
               <Link 
                 href="/komunitas" 
                 className={`px-4 py-2 rounded-full text-sm ${pathname === '/komunitas' ? 'bg-[#4682B4] text-white' : 'text-gray-600 hover:bg-gray-100'}`}

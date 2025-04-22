@@ -13,13 +13,13 @@ const PreviewCV = () => {
         </div>
 
         {/* Preview CV */}
-        <div className="relative w-full rounded-xl overflow-hidden shadow-xl border border-gray-200 bg-white" style={{ aspectRatio: '3/4' }}>
+        <div className="relative h-screen w-full rounded-xl overflow-hidden shadow-xl border border-gray-200 bg-white">
           <Image
             src="/trendycv.svg" 
             alt='CV Preview'
-            fill
-            className="object-contain"
-            sizes="100vw"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover"
             priority
           />
         </div>

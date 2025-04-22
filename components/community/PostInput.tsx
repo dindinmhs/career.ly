@@ -10,8 +10,7 @@ export default function PostInput() {
   return (
     <>
       <div 
-        onClick={() => setIsModalOpen(true)}
-        className="bg-white rounded-lg shadow mb-6 p-4 flex items-center cursor-pointer"
+        className="bg-white rounded-lg shadow mb-6 p-4 flex items-center"
       >
         <div className="w-10 h-10 rounded-full overflow-hidden mr-3">
           <Image 
@@ -22,7 +21,9 @@ export default function PostInput() {
             className="object-cover"
           />
         </div>
-        <div className="flex-1 p-2 border border-gray-300 rounded-full text-sm text-gray-500">
+        <div 
+        onClick={() => setIsModalOpen(true)}
+        className="flex-1 p-2 border border-gray-300 rounded-full text-sm text-gray-500 cursor-pointer">
           Mulai ngobrol di komunitas
         </div>
       </div>
