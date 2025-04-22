@@ -1,7 +1,7 @@
 'use client'
 import { StepIndicator } from "@/components/cvmaker/step-indicator";
-import { FaArrowRight } from "react-icons/fa";
 import { useRouter } from "next/navigation";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Step2Page = () => {
     const router = useRouter();
@@ -19,7 +19,7 @@ const Step2Page = () => {
                     <button 
                         className="flex w-full justify-between items-center p-8 bg-[#E7F1F7]">
                         <span>Facebook</span>
-                        <FaArrowRight 
+                        <MdKeyboardArrowRight color="#3582C5" size={35}
                             onClick={(e) => {
                                 e.stopPropagation(); 
                                 handleNavigateToStep3();
@@ -28,8 +28,8 @@ const Step2Page = () => {
                     </button>
                     <button 
                         className="flex w-full justify-between items-center p-8 bg-[#E7F1F7]">
-                        <span>Facebook</span>
-                        <FaArrowRight 
+                        <span>Google</span>
+                        <MdKeyboardArrowRight color="#3582C5" size={35}
                             onClick={(e) => {
                                 e.stopPropagation(); 
                                 handleNavigateToStep3();
@@ -38,8 +38,8 @@ const Step2Page = () => {
                     </button>
                     <button 
                         className="flex w-full justify-between items-center p-8 bg-[#E7F1F7]">
-                        <span>Facebook</span>
-                        <FaArrowRight 
+                        <span>Linkedin</span>
+                        <MdKeyboardArrowRight color="#3582C5" size={35}
                             onClick={(e) => {
                                 e.stopPropagation(); 
                                 handleNavigateToStep3();
@@ -48,7 +48,7 @@ const Step2Page = () => {
                     </button>
                 </div>
                 <div className="flex">
-                    <button className="bg-[#3785C6] px-4 py-2 rounded-2xl text-xl font-semibold text-white mx-auto mt-10">
+                    <button onClick={()=>router.push('/cvmaker/step3')} className="bg-[#3785C6] px-4 py-2 rounded-2xl text-xl font-semibold text-white mx-auto mt-10">
                         Selanjutnya
                     </button>
                 </div>

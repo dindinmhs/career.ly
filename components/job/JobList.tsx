@@ -1,58 +1,58 @@
 import React from 'react';
 import JobCard from './JobCard';
 
+export const jobs = [
+  {
+    id: 1,
+    title: 'Software Engineer',
+    provider: 'PLN',
+    providerType : 'Perusahaan Mitra',
+    level: 'Paruh Waktu',
+    price: 'Rp2-8jt',
+    image: '/pln.svg',
+    tags: ['Python', 'Minimal Sarjana S1'],
+    address: 'Jalan Trunojoyo Blok M ...',
+    postedDate: '7 hari yang lalu'
+  },
+  {
+    id: 2,
+    title: 'Software Engineer',
+    provider: 'PLN',
+    providerType : 'Perusahaan Mitra',
+    level: 'Paruh Waktu',
+    price: 'Rp2-8jt',
+    image: '/pln.svg',
+    tags: ['Python', 'Minimal Sarjana S1'],
+    address: 'Jalan Trunojoyo Blok M ...',
+    postedDate: '7 hari yang lalu'
+  },
+  {
+    id: 3,
+    title: 'Software Engineer',
+    provider: 'PLN',
+    providerType : 'Perusahaan Mitra',
+    level: 'Paruh Waktu',
+    price: 'Rp2-8jt',
+    image: '/pln.svg',
+    tags: ['Python', 'Minimal Sarjana S1'],
+    address: 'Jalan Trunojoyo Blok M ...',
+    postedDate: '7 hari yang lalu'
+  },
+  {
+    id: 4,
+    title: 'Software Engineer',
+    provider: 'PLN',
+    providerType : 'Perusahaan Mitra',
+    level: 'Paruh Waktu',
+    price: 'Rp2-8jt',
+    image: '/pln.svg',
+    tags: ['Python', 'Minimal Sarjana S1'],
+    address: 'Jalan Trunojoyo Blok M ...',
+    postedDate: '7 hari yang lalu'
+  }
+];
 const JobList = () => {
   // Sample training data
-  const jobs = [
-    {
-      id: 1,
-      title: 'Software Engineer',
-      provider: 'PLN',
-      providerType : 'Perusahaan Mitra',
-      level: 'Paruh Waktu',
-      price: 'Rp2-8jt',
-      image: '/pln.svg',
-      tags: ['Python', 'Minimal Sarjana S1'],
-      address: 'Jalan Trunojoyo Blok M ...',
-      postedDate: '7 hari yang lalu'
-    },
-    {
-      id: 2,
-      title: 'Software Engineer',
-      provider: 'PLN',
-      providerType : 'Perusahaan Mitra',
-      level: 'Paruh Waktu',
-      price: 'Rp2-8jt',
-      image: '/pln.svg',
-      tags: ['Python', 'Minimal Sarjana S1'],
-      address: 'Jalan Trunojoyo Blok M ...',
-      postedDate: '7 hari yang lalu'
-    },
-    {
-      id: 3,
-      title: 'Software Engineer',
-      provider: 'PLN',
-      providerType : 'Perusahaan Mitra',
-      level: 'Paruh Waktu',
-      price: 'Rp2-8jt',
-      image: '/pln.svg',
-      tags: ['Python', 'Minimal Sarjana S1'],
-      address: 'Jalan Trunojoyo Blok M ...',
-      postedDate: '7 hari yang lalu'
-    },
-    {
-      id: 4,
-      title: 'Software Engineer',
-      provider: 'PLN',
-      providerType : 'Perusahaan Mitra',
-      level: 'Paruh Waktu',
-      price: 'Rp2-8jt',
-      image: '/pln.svg',
-      tags: ['Python', 'Minimal Sarjana S1'],
-      address: 'Jalan Trunojoyo Blok M ...',
-      postedDate: '7 hari yang lalu'
-    }
-  ];
 
   return (
     <div>
